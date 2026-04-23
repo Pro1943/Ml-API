@@ -17,15 +17,22 @@ from utils import normalize_landmarks
 
 # ── Structured logging ──────────────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(asctime)s %(message)s")
-logger = logging.getLogger("signbridge_ml")
+logger = logging.getLogger("ml-api")
 
-app = FastAPI(title="SignBridge ASL Classifier API", version="1.0.0")
+app = FastAPI(title="ASL Classifier API", version="1.0.0")
 
 # ── C.2.1: Restrict CORS to known frontend origins only ─────────────────────
-ALLOWED_ORIGINS = os.environ.get(
-    "ALLOWED_ORIGINS",
-    "https://signbridgev2.vercel.app,http://localhost:5173,http://localhost:3000"
-).split(",")
+def get_allowed_origins() -> list[str]:
+    raw_origins = os.getenv("ALLOWED_ORIGINS", "")
+    origins = [origin.strip() for origin in raw_origins.split(",") if origin.strip()]
+
+    if not origins:
+        logger.warning("No ALLOWED_ORIGINS configured. Cross-origin requests will be blocked.")
+
+    return origins
+
+
+ALLOWED_ORIGINS = get_allowed_origins()
 
 app.add_middleware(
     CORSMiddleware,

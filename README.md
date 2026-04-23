@@ -13,7 +13,6 @@
 
   <a href="https://github.com/Pro1943/Ml-API/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Pro1943/Ml-API?style=flat-square&color=3B82F6&label=License" alt="MIT License" /></a>
   <img src="https://img.shields.io/github/repo-size/Pro1943/Ml-API?style=flat-square&color=8B5CF6&label=Repo%20Size" alt="Repository size" />
-  <img src="https://shields.io" alt="Code size" />
   <a href="https://github.com/Pro1943/Ml-API/stargazers"><img src="https://img.shields.io/github/stars/Pro1943/Ml-API?style=flat-square&color=F59E0B&label=Stars" alt="GitHub stars" /></a>
 
   <br/><br/>

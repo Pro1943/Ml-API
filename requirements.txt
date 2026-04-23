@@ -1,0 +1,13 @@
+# C.3.5: All versions pinned for reproducible builds
+fastapi==0.115.0
+uvicorn==0.30.6
+scikit-learn==1.5.2
+pandas==2.2.2
+matplotlib==3.9.2
+seaborn==0.13.2
+joblib==1.4.2
+python-multipart==0.0.9
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+python-dotenv==1.0.1

@@ -12,7 +12,6 @@
   <br/>
 
   <a href="https://github.com/Pro1943/Ml-API/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Pro1943/Ml-API?style=flat-square&color=3B82F6&label=License" alt="MIT License" /></a>
-  <img src="https://img.shields.io/github/repo-size/Pro1943/Ml-API?style=flat-square&color=8B5CF6&label=Repo%20Size" alt="Repository size" />
   <a href="https://github.com/Pro1943/Ml-API/stargazers"><img src="https://img.shields.io/github/stars/Pro1943/Ml-API?style=flat-square&color=F59E0B&label=Stars" alt="GitHub stars" /></a>
 
   <br/><br/>
@@ -55,7 +54,7 @@ This API is **publicly available** for anyone to use in their own accessibility 
 To use the hosted public endpoint, please send a quick email to:
 📧 **pro194.235@gmail.com**
 
-*Please include a brief description of what you're building. There are no strict rate limits currently, but emailing helps me monitor usage and keep the servers running smoothly for everyone.*
+*Please include a brief description of what you're building. There are no strict rate limits currently, but emailing helps me monitor usage and keep the servers running smoothly for everyone. Please try to maintain a healthy conversation.*
 
 ---
 

@@ -152,7 +152,7 @@ git clone https://github.com/Pro1943/Ml-API.git
 cd Ml-API
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 ### Run Inference Server

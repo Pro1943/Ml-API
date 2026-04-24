@@ -6,12 +6,11 @@ import numpy as np
 import os
 import logging
 
-# Load .env file if present (override=False so real env vars take priority)
 try:
     from dotenv import load_dotenv
     load_dotenv(override=False)
 except ImportError:
-    pass  # python-dotenv not installed; rely on real environment variables
+    pass
 
 from utils import normalize_landmarks
 

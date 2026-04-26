@@ -133,7 +133,9 @@ Health check endpoint to verify the service is running.
 - **Input Features:** 63 dimensions (21 landmarks × 3 coordinates [x,y,z])
 - **Preprocessing:** Translation to wrist origin (0,0,0) and scale normalization by maximum distance.
 - **Classes:** A-Z (Note: Dynamic signs like 'J' and 'Z' may have lower accuracy as they rely on single-frame static heuristics).
-- **Training Data:** Sourced from the Kaggle ASL image dataset, processed through MediaPipe Hand Landmarker.
+- **Training Data:** Sourced from the Kaggle ASL image dataset, processed through MediaPipe Hand Landmarker. 
+
+> For a more information about the dataset used to train the AI please read the `.txt` file in the `dataset` folder.
 
 ---
 

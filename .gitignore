@@ -3,3 +3,9 @@
 .env
 #Python cache
 __pycache__/*
+#Test
+test_api.py
+test_options.py
+test_options_root.py
+#Dataset Images
+dataset/images/*

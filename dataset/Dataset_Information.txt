@@ -1,0 +1,11 @@
+The dataset used to train the AI model 
+is a merged image dataset of the following:
+1. 
+https://www.kaggle.com/datasets/ayuraj/asl-dataset
+2.
+https://www.kaggle.com/datasets/madhavanair/american-sign-language-dataset
+[Excluding the Space and Backspace]
+
+IMPORTANT Note:
+I nither own nor claim to own any of the above stated datasets.
+The full credit for the dataset go to their owners.
